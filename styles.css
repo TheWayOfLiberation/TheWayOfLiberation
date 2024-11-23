@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: #222;
+    background-color: black;
     color: white;
     padding: 10px 0;
     text-align: center;
@@ -18,6 +18,7 @@ nav {
     justify-content: center;
     flex-wrap: wrap;
     gap: 15px;
+    text-align: right;
 }
 
 nav a {
@@ -32,16 +33,32 @@ nav a:hover {
     background-color: #555;
 }
 
+
 main {
-    padding: 20px;
     text-align: center;
+}
+
+.bottom {
+  padding-bottom: 50px;
+}
+
+
+/* header */
+.center {
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 
 .center__text {
   margin: auto;
   font-family: 'Montserrat', sans-serif;
-  font-size: 120px;
+  font-size: 300%;
   text-transform: uppercase;
 }
 .glitch {
@@ -63,14 +80,14 @@ main {
 }
 .glitch:after {
   left: 1px;
-  text-shadow: -1px 0 rgba(0, 0, 255, 0.7);
+  text-shadow: -1px 0 rgba(3, 140, 51, 0.9);
 }
 .glitch:hover:before {
   text-shadow: 4px 0 rgba(255, 0, 0, 0.7);
   animation: glitch-loop-1 0.8s infinite ease-in-out alternate-reverse;
 }
 .glitch:hover:after {
-  text-shadow: -5px 0 rgba(0, 0, 255, 0.7);
+  text-shadow: -5px 0 rgba(3, 140, 51, 0.9);
   animation: glitch-loop-2 0.8s infinite ease-in-out alternate-reverse;
 }
 @keyframes glitch-loop-1 {
@@ -119,12 +136,15 @@ main {
 }
 
 
-
+/* image and text */
 .main-image {
     max-width: 100%;
     height: auto;
-    margin-top: 20px;
-    border-radius: 10px;
+}
+
+
+.text {
+    margin: 20px;
 }
 
 section {
@@ -138,64 +158,14 @@ section {
 section img {
     max-width: 100%;
     height: auto;
-    border-radius: 10px;
 }
 
 footer {
-    background-color: #222;
+    background-color: black;
     color: white;
     text-align: center;
     padding: 10px 0;
-    position: fixed;
     width: 100%;
     bottom: 0;
     font-size: 14px;
-}
-
-/* Responsive Styles */
-@media (max-width: 768px) {
-    header {
-        text-align: center;
-    }
-
-    nav {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    footer {
-        position: relative;
-    }
-
-    main {
-        padding: 10px;
-    }
-
-    section {
-        margin: 10px;
-        padding: 10px;
-        max-width: 100%;
-    }
-}
-
-@media (min-width: 1024px) {
-    nav a {
-        padding: 15px 20px;
-    }
-
-    section {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    section img {
-        width: 40%;
-        margin-left: 20px;
-    }
-
-    section div {
-        text-align: left;
-        flex: 1;
-    }
 }
