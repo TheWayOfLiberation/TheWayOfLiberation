@@ -4,35 +4,118 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Artists and Artworks</title>
+    <!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Bootstrap JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="map.html">Map</a>
-            <a href="artist.html">Artists/Artworks</a>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">The Way of Liberation</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="map.html">Map</a></li>
+                        <li class="nav-item"><a class="nav-link" href="artist.html">Artists/Artworks</a></li>
+                    </ul>
+                </div>
+            </div>
         </nav>
     </header>
 
-    <main>
-        <h1>Artists and Artworks</h1>
-        <section>
-            <h2>Artist Name</h2>
-            <p>Short bio about the artist.</p>
-            <img src="path/to/artwork-image.jpg" alt="Artwork">
-            <p>Description of the artwork.</p>
-        </section>
-        <section>
-            <h2>Artist Name</h2>
-            <p>Short bio about the artist.</p>
-            <img src="path/to/artwork-image.jpg" alt="Artwork">
-            <p>Description of the artwork.</p>
-        </section>
+    <main class="container my-5">
+        <h1 class="text-center mb-4">Artists and Artworks</h1>
+        <div class="row">
+
+            <!-- Artist 1 -->
+            <div class="col-md-6">
+                <h2>The first artists name </h2>
+                <p>The artwork features a life-sized, sculpted olive tree crafted from a mix of iron and reclaimed wood, 
+                    symbolizing resilience and the rootedness of cultural identity. The tree's branches stretch upwards, 
+                    bearing leaves made of broken mirrors that reflect fragments of light, representing hope, resistance, 
+                    and the power of collective action.
+                    Beneath the tree lies a foundation of soil interspersed with shattered chains, hinting at the 
+                    liberation from oppression. Embedded into the soil are items of daily life from diverse cultures—ceramic pots, 
+                    embroidered fabrics, and traditional tools—signifying the resilience of ordinary people and the stories tied 
+                    to their struggles.
+                    Suspended above the tree are doves in flight, made of delicate wire mesh and translucent paper</p>
+            </div>
+            <div class="col-md-6 bottom">
+                <img src="images/test_image_artwork.png" alt="Artwork" class="img-fluid rounded">
+                <p><i>"Olive tree of restiance"</i></p>
+            </div>
+
+
+            <!-- Artist 2 -->
+            <div class="col-md-6">
+                <h2>Second artists name </h2>
+                <p>The artwork features a life-sized, sculpted olive tree crafted from a mix of iron and reclaimed wood, 
+                    symbolizing resilience and the rootedness of cultural identity. The tree's branches stretch upwards, 
+                    bearing leaves made of broken mirrors that reflect fragments of light, representing hope, resistance, 
+                    and the power of collective action.
+                    Beneath the tree lies a foundation of soil interspersed with shattered chains, hinting at the 
+                    liberation from oppression. Embedded into the soil are items of daily life from diverse cultures—ceramic pots, 
+                    embroidered fabrics, and traditional tools—signifying the resilience of ordinary people and the stories tied 
+                    to their struggles.
+                    Suspended above the tree are doves in flight, made of delicate wire mesh and translucent paper</p>
+            </div>
+            <div class="col-md-6 bottom">
+                <img src="images/test_image_artwork2.png" alt="Artwork" class="img-fluid rounded">
+                <p><i>"A path to liberation"</i></p>
+            </div>
+
+            <!-- Artist 3 -->
+            <div class="col-md-6">
+                <h2>The third artists name </h2>
+                <p>The artwork features a life-sized, sculpted olive tree crafted from a mix of iron and reclaimed wood, 
+                    symbolizing resilience and the rootedness of cultural identity. The tree's branches stretch upwards, 
+                    bearing leaves made of broken mirrors that reflect fragments of light, representing hope, resistance, 
+                    and the power of collective action.
+                    Beneath the tree lies a foundation of soil interspersed with shattered chains, hinting at the 
+                    liberation from oppression. Embedded into the soil are items of daily life from diverse cultures—ceramic pots, 
+                    embroidered fabrics, and traditional tools—signifying the resilience of ordinary people and the stories tied 
+                    to their struggles.
+                    Suspended above the tree are doves in flight, made of delicate wire mesh and translucent paper</p>
+            </div>
+            <div class="col-md-6 bottom">
+                <img src="images/test_image_artwork.png" alt="Artwork" class="img-fluid rounded">
+                <p><i>"Olive tree of restiance"</i></p>
+            </div>
+
+
+            <!-- Artist 4 -->
+            <div class="col-md-6">
+                <h2>Fourths artists name </h2>
+                <p>The artwork features a life-sized, sculpted olive tree crafted from a mix of iron and reclaimed wood, 
+                    symbolizing resilience and the rootedness of cultural identity. The tree's branches stretch upwards, 
+                    bearing leaves made of broken mirrors that reflect fragments of light, representing hope, resistance, 
+                    and the power of collective action.
+                    Beneath the tree lies a foundation of soil interspersed with shattered chains, hinting at the 
+                    liberation from oppression. Embedded into the soil are items of daily life from diverse cultures—ceramic pots, 
+                    embroidered fabrics, and traditional tools—signifying the resilience of ordinary people and the stories tied 
+                    to their struggles.
+                    Suspended above the tree are doves in flight, made of delicate wire mesh and translucent paper</p>
+            </div>
+            <div class="col-md-6 bottom">
+                <img src="images/test_image_artwork2.png" alt="Artwork" class="img-fluid rounded">
+                <p><i>"A path to liberation"</i></p>
+            </div>
+
+
+
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 Art Exhibition</p>
+        <p>&copy; 2024 The Way of Liberation</p>
     </footer>
 </body>
 </html>
