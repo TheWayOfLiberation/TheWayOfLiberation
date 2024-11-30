@@ -68,6 +68,12 @@ main {
   font-size: 200%;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 700px){
+  .center__text{
+    font-size: 300%;
+  }
+}
 .glitch {
   position: relative;
   color: white;
