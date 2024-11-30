@@ -6,6 +6,13 @@ body {
     line-height: 1.6;
 }
 
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: small;
+  display: block;
+  text-align: justify;
+}
+
 header {
     background-color: black;
     color: white;
@@ -58,7 +65,7 @@ main {
 .center__text {
   margin: auto;
   font-family: 'Montserrat', sans-serif;
-  font-size: 300%;
+  font-size: 200%;
   text-transform: uppercase;
 }
 .glitch {
@@ -138,8 +145,10 @@ main {
 
 /* image and text */
 .main-image {
-    max-width: 100%;
+    margin: 20px;
+    max-width: 90%;
     height: auto;
+    max-height: 600px;
 }
 
 
@@ -168,4 +177,10 @@ footer {
     width: 100%;
     bottom: 0;
     font-size: 14px;
+}
+
+/* Artists */
+
+h2 {
+  text-align: left;
 }
