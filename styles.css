@@ -157,9 +157,17 @@ main {
     max-height: 600px;
 }
 
-
 .text {
-    margin: 20px;
+  margin: 20px;
+}
+
+@media screen and (min-width: 700px){
+  .text {
+    margin-left: 20%;
+    margin-top: 10px;
+    max-width: 60%;
+    text-align: center;
+    }
 }
 
 section {
